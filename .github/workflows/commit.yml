@@ -17,7 +17,7 @@ jobs:
 
       - name: Make changes
         run: |
-          echo "## Update on $(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> example_data.md
+          echo "## Update on $(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> web3projects.md
           echo "" >> web3projects.md
           echo "- Automated update by GitHub Actions" >> web3projects.md
           echo "" >> web3projects.md
